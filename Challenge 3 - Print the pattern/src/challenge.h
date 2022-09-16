@@ -10,6 +10,7 @@ char *get_pattern(int pattern_length)
     for (int i = pattern_length; i > 0; i--)
     {
         get_line(i);
+        printf("$");
     }
 }
 
