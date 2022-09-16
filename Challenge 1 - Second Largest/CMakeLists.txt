@@ -26,10 +26,5 @@ target_link_libraries(
   GTest::gtest_main
 )
 
-target_link_libraries(
-  test_challenge
-  gmock
-)
-
 include(GoogleTest)
 gtest_discover_tests(test_challenge)
