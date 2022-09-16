@@ -1,4 +1,4 @@
-# 90-algorithm-challenges
+# 100-algorithm-challenges
 Challenge to solve 100 algorithm problems.
 
 3 schoolar level challenges
