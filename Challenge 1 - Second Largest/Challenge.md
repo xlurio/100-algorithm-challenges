@@ -1,4 +1,4 @@
-# Challenge 1
+# Challenge 1 - Second Largest
 
 Given an array Arr of size N, print second largest element from an array.
 
