@@ -1,2 +1,5 @@
 # Compiled
 build/
+
+# VS Code
+.vscode/
