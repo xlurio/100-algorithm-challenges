@@ -4,7 +4,6 @@ int check_for_third_value(
 
 int count_triplets(int *array_to_check, int size) {
   int first_value, second_value, value_to_find, is_there_triple_result_zero = 0;
-  int number_of_triplets = 0;
   int i, j;
 
   for (i = 0; i < size; i++) {
@@ -20,12 +19,12 @@ int count_triplets(int *array_to_check, int size) {
       );
 
       if (is_there_triple_result_zero) {
-        number_of_triplets++;
+        return 1;
       }
     }
   }
 
-  return number_of_triplets;
+  return 0;
 }
 
 int check_for_third_value(
